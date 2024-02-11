@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guacamole</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
 <body>
     <h1>Guacamole</h1>
-    <img src="../images/guacamole1.webp" alt="Fresh guacamole in a bowl">
+    <div class="image-container">
+        <img src="../images/guacamole1.webp" alt="Fresh guacamole in a bowl">
+    </div>
 
     <h2>Description</h2>
     <p><em>Guacamole</em> is an avocado-based dip or spread that originated in Mexico. It's typically made with mashed
@@ -19,30 +22,30 @@
     <ul>
         <li><em>Avocados</em>: Of course, you'll need avocados!<br>
             <ul>
-                <li>3 avocados - peeled, pitted, and mashed</li>
+                <li><input class="ingredient" type="checkbox">3 avocados - peeled, pitted, and mashed</li>
             </ul>
         </li>
         <li><em>Lime</em>: Lime juice adds brightness and slows down the browning process.<br>
             <ul>
-                <li>1 lime, juiced</li>
+                <li><input class="ingredient" type="checkbox">1 lime, juiced</li>
             </ul>
         </li>
         <li><em>Salt</em>: A teaspoon of salt enhances the flavors of the other ingredients.<br>
             <ul>
-                <li>1 teaspoon salt</li>
+                <li><input class="ingredient" type="checkbox">1 teaspoon salt</li>
             </ul>
         </li>
         <li><em>Vegetables</em>: You'll also need an onion and roma tomatoes.<br>
             <ul>
-                <li>2 roma (plum) tomatoes, diced</li>
-                <li>1/2 cup diced onion</li>
+                <li><input class="ingredient" type="checkbox">2 roma (plum) tomatoes, diced</li>
+                <li><input class="ingredient" type="checkbox">1/2 cup diced onion</li>
             </ul>
         </li>
         <li><em>Herbs and spices</em>: Fresh cilantro, minced garlic, and cayenne pepper add tons of flavor.<br>
             <ul>
-                <li>3 tablespoons chopped fresh cilantro</li>
-                <li>1 teaspoon minced garlic</li>
-                <li>1 pinch ground cayenne pepper (Optional)</li>
+                <li><input class="ingredient" type="checkbox">3 tablespoons chopped fresh cilantro</li>
+                <li><input class="ingredient" type="checkbox">1 teaspoon minced garlic</li>
+                <li><input class="ingredient" type="checkbox">1 pinch ground cayenne pepper (Optional)</li>
             </ul>
         </li>
     </ul>
@@ -54,7 +57,9 @@
         <li>Serve immediately, or cover and refrigerate for 1 hour for improved flavor.</li>
     </ol>
 
-    <img src="../images/guacamole2.webp" alt="Guacamole in a bowl with garnishing diced tomatoes and cilantro">
+    <div class="image-container">
+        <img src="../images/guacamole2.webp" alt="Guacamole in a bowl with garnishing diced tomatoes and cilantro">
+    </div>
 </body>
 
 </html>
